@@ -1,2 +1,0 @@
-# simplifying-js-tutorial
-Created with CodeSandbox
