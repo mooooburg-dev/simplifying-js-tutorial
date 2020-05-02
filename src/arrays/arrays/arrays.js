@@ -46,3 +46,19 @@ for (let i = 0; i < stats.length; i++) {
     console.log(total[stat]);
   }
 }
+
+////////////////////////////////////////////////////////
+
+const dog = {
+  name: "Don",
+  color: "black"
+};
+console.log(dog.name);
+
+const dogPair = [["name", "Don"], ["color", "black"]];
+function getName(dog) {
+  return dog.find(attribute => {
+    return attribute[0] === "name";
+  })[1];
+}
+console.log(getName(dogPair));
