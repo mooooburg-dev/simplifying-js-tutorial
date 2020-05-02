@@ -38,12 +38,12 @@ const game2 = {
 };
 const total = {};
 const stats = Object.keys(game1);
-console.log("stats : " + stats);
+// console.log("stats : " + stats);
 for (let i = 0; i < stats.length; i++) {
   const stat = stats[i];
   if (stat !== "player") {
     total[stat] = game1[stat] + game2[stat];
-    console.log(total[stat]);
+    // console.log(total[stat]);
   }
 }
 
@@ -53,7 +53,7 @@ const dog = {
   name: "Don",
   color: "black"
 };
-console.log(dog.name);
+// console.log(dog.name);
 
 const dogPair = [["name", "Don"], ["color", "black"]];
 function getName(dog) {
@@ -61,4 +61,4 @@ function getName(dog) {
     return attribute[0] === "name";
   })[1];
 }
-console.log(getName(dogPair));
+// console.log(getName(dogPair));
