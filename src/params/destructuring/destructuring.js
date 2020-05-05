@@ -6,4 +6,3 @@ const landscape = {
   src: "/landscape-nm.jpg",
   location: [32.7122222, -103.1405556]
 };
-
